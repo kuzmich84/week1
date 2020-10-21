@@ -5,7 +5,7 @@
       "Access-Control-Allow-Origin": "*"
     },
     {
-    "/login/":{
+    "*/login/":{
       "X-Author":"kuchukov_d"
   }
   }
