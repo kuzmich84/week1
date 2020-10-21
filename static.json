@@ -1,7 +1,8 @@
 {
   "headers":{
     "/*":{
-      "X-Author":"kuchukov_d"
+      "X-Author":"kuchukov_d",
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }
