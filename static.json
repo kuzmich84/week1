@@ -3,6 +3,11 @@
     "/*":{
       "X-Author":"kuchukov_d",
       "Access-Control-Allow-Origin": "*"
-    }
+    },
+    {
+    "/login/":{
+      "X-Author":"kuchukov_d"
+  }
+  }
   }
 }
