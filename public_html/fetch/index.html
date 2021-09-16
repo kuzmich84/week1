@@ -17,11 +17,24 @@
 
         btn.addEventListener('click', (e) => {
             e.preventDefault();
-            console.log(input.value);
-            // let response = await fetch(input.value);
+            (async ()=>{
+                let response = await fetch(input.value);
+                if (response.ok) {
+                    let answer = await response.text();
+                    input.value = '';
+                    input.value = answer;
+                }
+            })();
 
         })
     }
 </script>
 </body>
 </html>
+
+(async function (){
+let response = await fetch(input.value);
+if (response.ok) {
+let json = await response.json();
+input.value = json;
+})();
