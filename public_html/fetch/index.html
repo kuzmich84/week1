@@ -13,9 +13,13 @@
 <script>
     {
         const btn = document.getElementById('bt');
+        const input = document.getElementById('inp');
+
         btn.addEventListener('click', (e) => {
             e.preventDefault();
-            console.log('click');
+            console.log(input.value);
+            // let response = await fetch(input.value);
+
         })
     }
 </script>
