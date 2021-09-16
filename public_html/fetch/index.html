@@ -31,10 +31,3 @@
 </script>
 </body>
 </html>
-
-(async function (){
-let response = await fetch(input.value);
-if (response.ok) {
-let json = await response.json();
-input.value = json;
-})();
