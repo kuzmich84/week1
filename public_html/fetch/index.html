@@ -17,7 +17,7 @@
 
         btn.addEventListener('click', (e) => {
             e.preventDefault();
-            (async ()=>{
+            (async () => {
                 let response = await fetch(input.value);
                 if (response.ok) {
                     let answer = await response.text();
@@ -27,6 +27,14 @@
             })();
 
         })
+
+        function task(x) {
+            x => new Promise((res, rej) => x < 18 ? res(console.log('yes')) : rej('no'));
+            return x;
+        }
+
+        task(10);
+
     }
 </script>
 </body>
