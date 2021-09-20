@@ -1,3 +1,3 @@
 var req = new XMLHttpRequest();
 
-console.log(req);
+console.log(req.getResponseHeader('Host'));
