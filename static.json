@@ -23,6 +23,13 @@
       "X-Author":"kuchukov_d",
       "Access-Control-Allow-Origin": "*",
       "Content-Type":"text/html; charset=UTF-8"
+    },
+    "*/result4/":{
+      "X-Author":"kuchukov_d",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET,POST,DELETE",
+      "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers",
+      "Content-Type":"application/json; charset=UTF-8"
     }
 
   }
